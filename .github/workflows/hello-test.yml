@@ -1,0 +1,13 @@
+name: Hello Test Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Exibir Mensagem
+        run: echo "Olá, teste do Kenzo"
